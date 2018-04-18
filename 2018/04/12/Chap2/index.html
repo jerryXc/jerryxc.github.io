@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="Function of financial markets金融体系中的资金流向：   Direct finance 直接融资中，借方通过发售证券在金融市场直接向贷方借入资金。证券构成对借方未来收益或资产的要求权。  证券对于购买者来说是资产，对发行人来说是 liabilities 负债。  储蓄者通常不是拥有较好投资机会的一方，金融市场的存在促进了资金的流动，使各方都能获益。  金融市场对 cap">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Chapter 2 -- An Overview of the Financial System">
+<meta property="og:url" content="http://yoursite.com/2018/04/12/Chap2/index.html">
+<meta property="og:site_name" content="Little Space">
+<meta property="og:description" content="Function of financial markets金融体系中的资金流向：   Direct finance 直接融资中，借方通过发售证券在金融市场直接向贷方借入资金。证券构成对借方未来收益或资产的要求权。  证券对于购买者来说是资产，对发行人来说是 liabilities 负债。  储蓄者通常不是拥有较好投资机会的一方，金融市场的存在促进了资金的流动，使各方都能获益。  金融市场对 cap">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/img/fund_flow.png">
+<meta property="og:updated_time" content="2018-04-13T09:26:54.975Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 2 -- An Overview of the Financial System">
+<meta name="twitter:description" content="Function of financial markets金融体系中的资金流向：   Direct finance 直接融资中，借方通过发售证券在金融市场直接向贷方借入资金。证券构成对借方未来收益或资产的要求权。  证券对于购买者来说是资产，对发行人来说是 liabilities 负债。  储蓄者通常不是拥有较好投资机会的一方，金融市场的存在促进了资金的流动，使各方都能获益。  金融市场对 cap">
+<meta name="twitter:image" content="http://yoursite.com/img/fund_flow.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/04/12/Chap2/"/>
+
+
+
+
+
+  <title>Chapter 2 -- An Overview of the Financial System | Little Space</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Little Space</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/12/Chap2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Little Space">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Chapter 2 -- An Overview of the Financial System</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-12T00:00:00+08:00">
+                2018-04-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/《货币金融学》笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">《货币金融学》笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h4 id="Function-of-financial-markets"><a href="#Function-of-financial-markets" class="headerlink" title="Function of financial markets"></a><em><u>Function of financial markets</u></em></h4><p>金融体系中的资金流向：</p>
+<center><img src="/img/fund_flow.png" alt="und_flo"></center>
+
+<p><strong>Direct finance 直接融资</strong>中，借方通过发售证券在金融市场直接向贷方借入资金。证券构成对借方未来收益或资产的要求权。</p>
+<ul>
+<li>证券对于购买者来说是资产，对发行人来说是 <strong>liabilities 负债</strong>。</li>
+</ul>
+<p>储蓄者通常不是拥有较好投资机会的一方，金融市场的存在促进了资金的流动，使各方都能获益。</p>
+<ul>
+<li>金融市场对 <strong>capital 资本</strong>的有效分配至关重要。</li>
+<li>金融市场的存在使年轻人可以购买需要但暂时难以负担的东西（如住房），而无需经过长期的储蓄存款。</li>
+</ul>
+<h4 id="Structure-of-financial-markets"><a href="#Structure-of-financial-markets" class="headerlink" title="Structure of financial markets"></a><em><u>Structure of financial markets</u></em></h4><h5 id="债务市场与股权市场"><a href="#债务市场与股权市场" class="headerlink" title="债务市场与股权市场"></a>债务市场与股权市场</h5><p>企业与个人可以通过两种方式在金融市场上筹集资金：</p>
+<ol>
+<li>发行 <strong>debt instrument 债务工具</strong>，如债券与 <strong>mortgage 抵押贷款</strong>。这是一种契约协定，借方每隔一段时间向债务工具持有人支付固定金额（包括利息与 <strong>principlal 本金</strong>），直到 <strong>maturity date 到期日</strong>完成最后一笔支付。债务工具的 <strong>maturity 期限</strong>指最终偿还日的日期。期限在 1 年以内的债务工具称为 <strong>short-term 短期</strong>工具，10 年以内的称为 <strong>long-term 长期</strong>，介于两者之间的称为 <strong>intermediate-term 中期</strong>。</li>
+<li>发行 <strong>equity 股权</strong>，如股票。这是一种对企业未来净收入（扣除开销和税收的收入）与资产的要求权。持有股权通常可以得到公司定期派发的红利（即 <strong>dividend 股息</strong>）。由于股权没有期限，因此可以视为一种长期证券。同时，持有股权意味着拥有公司的一部分，因此可以参与公司的决策和选举。</li>
+</ol>
+<p>区别：</p>
+<ul>
+<li>股权持有人拥有 <strong>residual claimant 剩余索取权</strong>，即公司向所有债务持有人完成支付后，才开始向股权持有人支付。</li>
+<li>由于股权持有人拥有公司的一部分，因此可以从公司利润和资产的增长中获益。而债务持有人得到的支付金额是固定的，与公司的经营情况无关。</li>
+</ul>
+<h5 id="一级市场与二级市场"><a href="#一级市场与二级市场" class="headerlink" title="一级市场与二级市场"></a>一级市场与二级市场</h5><p><strong>Primary market 一级市场</strong>指企业或政府向最初购买者发售新发行有价证券的市场。</p>
+<ul>
+<li>一级市场的交易通常是在内部进行的。</li>
+<li>投资银行是协助一级市场上发售证券的主要机构。投资银行的做法是 <strong>underwriting 承销</strong>证券，即将证券以保证的价格向公众发售。</li>
+</ul>
+<p><strong>Secondary market 二级市场</strong>是进行已发行（即二手）证券交易的市场。</p>
+<ul>
+<li>二级市场的例子：<strong>New York Stock Exchange 纽约证券交易所</strong>（<strong>NYSE</strong>）与 <strong>National Association of Securities Dealers Automated Quotation System 全国证券交易商协会自动报价表</strong>（<strong>NASDAQ 纳斯达克</strong>），其他如外汇市场，<strong>future 期货</strong>市场，<strong>option 期权</strong>市场等。</li>
+<li><strong>Securities Brokers 证券经纪人</strong>是投资者的代理人，他们使证券的买方与卖方相匹配。<strong>Dealers 交易商</strong>联系起买卖双方在一个公布的价格上进行交易。</li>
+<li>当个人在二级市场上购买证券时，出售证券的人获得了资金，但发行证券的公司并没有获取到这笔资金。只有在一级市场上发售证券时公司才能获得新的资金。</li>
+<li>二级市场的作用包括：<ol>
+<li>使金融工具变现更方便，也就是使金融工具更具 <strong>liquid 流动性</strong>。流动性增强使金融工具更受欢迎，从而在一级市场上销售更容易。</li>
+<li>二级市场决定了在一级市场上发行的证券的价格。投资者对二级市场上的价格设置了一个预期，在一级市场上向公司购买证券时，支付给发行者的价格不会超出这一预期。因此，二级市场上的证券价格决定了公司能在一级市场上获得多少资金。</li>
+</ol>
+</li>
+</ul>
+<h5 id="交易所与场外交易市场"><a href="#交易所与场外交易市场" class="headerlink" title="交易所与场外交易市场"></a>交易所与场外交易市场</h5><p>二级市场的组织有两种形式：</p>
+<ol>
+<li><strong>Exchange 交易所</strong>，买方与卖方（或者代理人与经纪人）在某个集中的地点进行交易。</li>
+<li><strong>Over-the-counter market 场外交易市场</strong>（<strong>OTC</strong>），处于不同地点的拥有证券 <strong>inventory 存货清单</strong>的交易商随时向与他们联系并接受给定价格的任何人在交易所外进行交易。OTC 市场通过计算机联系，且买卖双方互相了解价格，因此竞争性很强，并且与有组织的交易所区别不大。</li>
+</ol>
+<p>OTC 市场的例子：美国政府债券市场，<strong>negotiable certificates of deposit 可转让定期存单</strong>（或简称 CD，<strong>定期存单</strong>），<strong>federal funds 联邦基金</strong>，外汇市场等。</p>
+<h5 id="货币市场与资本市场"><a href="#货币市场与资本市场" class="headerlink" title="货币市场与资本市场"></a>货币市场与资本市场</h5><p><strong>Money market 货币市场</strong>，只进行短期债务工具的交易。<strong>Capital market 资本市场</strong>，进行长期债务工具与股权的交易。</p>
+<ul>
+<li>货币市场证券比长期证券更广泛，更具流动性。</li>
+<li>短期证券价格波动性较小，因此是更安全的投资。银行与企业都会积极地将临时性的盈余资金投入到货币市场赚得利息收益。</li>
+<li>资本市场证券通常由金融中介机构如保险公司和 <strong>pension funds 养老基金</strong>持有。这些机构对未来能获得的资金更有把握。</li>
+</ul>
+<h4 id="Financial-market-instruments"><a href="#Financial-market-instruments" class="headerlink" title="Financial market instruments"></a><em><u>Financial market instruments</u></em></h4><h5 id="货币市场工具"><a href="#货币市场工具" class="headerlink" title="货币市场工具"></a>货币市场工具</h5><p>由于期限短，货币市场中交易的债券波动幅度小，因此风险也最小。</p>
+<div style="border:1px solid black;padding:2px;background:#f3f2ee;"><br><br>《华尔街日报》每天发布的货币市场利率：<br><br>- <strong>Prime rate 优惠利率</strong>：企业向银行借贷的基准利率，是企业从银行融资的成本指标。<br>- <strong>Federal funds rate 联邦基金利率</strong>：联邦基金市场上 <strong>overnight loans 隔夜借款</strong>的利率，是衡量银行间借款的敏感指标，传达了政府的货币政策意图<br>- <strong>Treasury bill rate 国债利率</strong>：美国国债的利率，是衡量总体利率变动的指标<br>- <strong>Libor rate 伦敦同业拆借利率</strong>：London Interbank Offered Rate，指伦敦的第一流银行之间短期（隔夜至一年）资金借贷的利率，是国际金融市场中大多数浮动利率的基础利率。<br><br></div>
+
+<p>主要的货币市场工具：</p>
+<ul>
+<li><p><strong>U.S. Treasury Bills 美国国债</strong>。由美国政府发行的期限为一个月，三个月或六个月的短期债券。到期时支付固定金额，没有利息支付。但最初是按照贴现价格发行的，也就是以低于到期支付的价格销售，因此实际上支付了利息。</p>
+<p>美国国债是流动性最强的货币市场工具，同时也是最安全的，因为没有 <strong>default 违约</strong>（债务到期时债务工具发行者无法支付利息或本金）的风险。联邦政府可以通过税收与发行 <strong>currency 流通货币</strong>（通货）来履行债务。国债的持有者主要是银行，少数被家庭，企业和金融中介机构持有。</p>
+</li>
+<li><p><strong>Negotiable bank certificates of deposit 可转让定期存单</strong>。定期存单（CD）是由银行发行的定期支付利息并到在到期时按原购买价格支付的债务工具。可转让 CD 是在二级市场上交易的 CD。可转让 CD 是商业银行的重要资金来源，其购买者主要是企业，互惠基金，慈善机构和政府。</p>
+</li>
+<li><p><strong>Commercial paper 商业票据</strong>。由大型银行或大型公司发行的一种短期债务工具。</p>
+</li>
+<li><p><strong>Repurchase agreements 回购协议</strong>（repo）。一种将国债作为 <strong>collateral 抵押</strong>（若借款人无法到期偿还借款，贷款人可以将用作抵押的资产收为己有）的短期贷款（期限一般不超过两周）。回购协议的一般流程是：大公司利用闲置资金向银行购买国债，并约定一段时间后银行以稍高的价格回购国债。相当于大公司向银行提供了一笔贷款，而银行以回购的形式偿还贷款。回购协议是银行的重要资金来源，贷款方主要是大型企业。</p>
+</li>
+<li><p><strong>Federal funds 联邦基金</strong>。指银行间利用在美联储的存款进行的隔夜借款。贷款并不是由联邦政府或美联储发放的，而是在银行与银行之间进行。当银行在联邦储备体系中的存款低于规定要求时，就需要在联邦基金市场上进行贷款。银行可以通过美联储的电子转账系统从其他银行借入资金。这一市场对银行的信贷需求非常敏感，其利率称为联邦基金利率，是反映银行体系中信贷市场松紧状况与货币政策的晴雨表。若利率较高，说明银行有资金需求；若利率较低，说明银行信贷需求较低。</p>
+</li>
+</ul>
+<h5 id="资本市场工具"><a href="#资本市场工具" class="headerlink" title="资本市场工具"></a>资本市场工具</h5><p>主要的资本市场工具：</p>
+<ul>
+<li><strong>Stocks 股票</strong>。股票是对公司净利润和资产的要求权。股票总市值相比于其他类型证券更高，但每年新发行的股票规模不大。约一半股票为私人持有，其他的被养老基金，互惠基金与保险公司持有。</li>
+<li><strong>Mortgages and mortgage-backed securities 抵押贷款与抵押贷款支持证券</strong>。抵押贷款是向个人或企业发行的用于购买住房，土地或其他不动产的贷款，所购买的不动产本身用作抵押。储蓄贷款协会，互助储蓄银行，商业银行与保险公司是主要的贷款人。抵押贷款支持证券是近年来兴起的一种类似债券的抵押贷款形式，其基本结构是，把贷出的住房抵押贷款中符合一定条件的贷款集中起来，形成一个抵押贷款的集合体，利用贷款集合体定期发生的本金及利息的现金流入发行证券，并由政府机构或政府背景的金融机构对该证券进行担保。三个政府机构在抵押贷款市场中扮演重要角色：<strong>Federal National Mortgage Association 联邦国民抵押贷款协会</strong>（<strong>FNMA，Fannie Mae，房利美</strong>），<strong>Government National Mortgage Association，政府国民抵押贷款协会</strong>（<strong>GNMA，Ginnie Mae，吉利美</strong>），<strong>Federal Home Loan Mortgage Corporation，联邦住房抵押贷款公司</strong>（<strong>FHLMC，Freddie Mac，房地美</strong>）。这些机构发行债券，并将获得的资金注入抵押贷款市场。</li>
+<li><strong>Corporate Bonds 公司债券</strong>。由信用等级高的公司发行的长期债券。一般的公司债券每年两次支付利息，并在到期时按债券 <strong>face value 面值</strong>支付本金。<strong>Convertible bonds 可转换债券</strong>允许持有人在期限内任何时间将债券转换为一定数量的公司股票。这一特点使得可转换债券更受欢迎，从而公司也能减少利息支付，因为股价的上升可以使债券升值。公司债券的未清偿余额通常较少，因此流动性一般，但每年新发行的公司债券规模远超股票，因此债券市场的变动对公司决策更为重要。保险公司，养老基金与家庭是主要的公司债券持有人。</li>
+<li><strong>U.S. Government Securities 美国联邦政府证券</strong>。美国政府为弥补财政赤字发行的长期债务工具，是美国市场上交易量最大的证券，因此具有最高流动性。美联储，银行，家庭与外国投资者是主要持有人。</li>
+<li><strong>U.S. Government Agency Securities 美国联邦政府机构证券</strong>。由美国联邦政府机构如吉利美，<strong>Federal Farm Credit Bank 联邦农业信用银行</strong>等发行的长期债券，用于抵押贷款，农业贷款与水电站建设等。这些证券一般由联邦政府担保，其功能也类似联邦政府证券。</li>
+<li><strong>State and local government bonds 州和地方政府债券</strong>。也称为 <strong>municipal bonds 市政债券</strong>，是各州与地方政府为兴建学校，公路等公共设施筹集资金所发行的长期债券。这种债券的一个重要特点是其利息可以免除联邦所得税，且在所在州也可免除所得税。由于商业银行的所得税率较高，因此会大量持有此类债券。缴纳高额所得税的富人群体也是此类债券的主要持有者。</li>
+<li><strong>Consumer and bank commercial loans 消费贷款与银行商业贷款</strong>。由银行向消费者和企业提供，部分由财务公司提供。此类贷款没有二级市场，因此流动性最差。</li>
+</ul>
+<h4 id="Internationalization-of-financial-markets"><a href="#Internationalization-of-financial-markets" class="headerlink" title="Internationalization of financial markets"></a><em><u>Internationalization of financial markets</u></em></h4><p>金融市场的国际化是一个重要的趋势。国际金融市场的显著发展主要有两个原因，一个是国外储蓄额的巨大增长，另一个是国外金融监管的放松。</p>
+<h5 id="国际债券市场，欧洲债券与欧洲货币"><a href="#国际债券市场，欧洲债券与欧洲货币" class="headerlink" title="国际债券市场，欧洲债券与欧洲货币"></a>国际债券市场，欧洲债券与欧洲货币</h5><p>传统的国际债券市场金融工具称为 <strong>foreign bonds 外国债券</strong>，即在外国发行，并以发行所在国货币计价的债券。如德国公司在美国发行的，以美元计价的债券。</p>
+<p><strong>Eurobond 欧洲债券</strong>是以非发行所在国货币计价的债券，如在伦敦发行的以美元计价的债券。目前，国际债券市场上发行的债券主要都是欧洲债券。</p>
+<p><strong>Eurocurrencies 欧洲货币</strong>是欧洲债券的一个变种，指储蓄在本国之外的银行的货币。<strong>Eurodollars 欧洲美元</strong>是最重要的一种欧洲货币，指储蓄在美国之外的银行或美国银行的外国分行的美元。由于这些短期存款可以获得利息，因此与短期欧洲债券类似。美国银行经常从其他银行或者本行的外国分行借入欧洲美元，这已成为美国银行的一个重要资金来源。</p>
+<ul>
+<li>欧洲债券与 <strong>Euro 欧元</strong>并没有关系，也未必以欧元计价。而以欧元计价的债券只有在欧元区外发行时才成为欧洲债券。事实上，大多数欧洲债券是以美元计价的。类似地，欧洲美元也与欧元无关。</li>
+</ul>
+<h5 id="世界股票市场"><a href="#世界股票市场" class="headerlink" title="世界股票市场"></a>世界股票市场</h5><div style="border:1px solid black;padding:2px;background:#f3f2ee;"><br><br>主要的股票指数：<br><br>- <strong>Dow Jones Industrial Average 道·琼斯工业平均价格指数</strong>（DJIA）<br>- <strong>S&amp;P 500 标准普尔 500 指数</strong><br>- <strong>Nasdaq Composite 纳斯达克综合指数</strong><br>- <strong>Financial Times Stock Exchange 100-Share Index 《金融时报》100 指数</strong>（FTSE 100）<br>- <strong>Nikkei 300 Average 日经 300 平均指数</strong><br>- <strong>Hang Seng 恒生指数</strong><br><br></div>
+
+<h4 id="Function-of-financial-intermediaries-indirect-finance"><a href="#Function-of-financial-intermediaries-indirect-finance" class="headerlink" title="Function of financial intermediaries: indirect finance"></a><em><u>Function of financial intermediaries: indirect finance</u></em></h4><p><strong>Indirect finance 间接融资</strong>指借方通过金融中介结构向贷方借款。金融机构向借方/储蓄者借款，然后向贷方/支出者贷款。</p>
+<p>通过金融中介进行间接融资的过程称为 <strong>financial intermediation 金融中介化</strong>，是实现资金在借贷双方之间转移的主要途径。</p>
+<h5 id="交易成本"><a href="#交易成本" class="headerlink" title="交易成本"></a>交易成本</h5><p><strong>Transaction cost 交易成本</strong>指在金融交易过程中耗费的时间和金钱，例如正式贷款合同的起草费用。交易成本是贷方面临的主要问题。</p>
+<p>金融中介机构可以大幅降低交易成本。一方面，中介机构拥有这方面的专业技能，另一方面，<strong>economies of scale 规模经济</strong>可以使边际交易成本降低。例如，银行可以聘请律师起草一份严谨的贷款合同，而这份合同可以反复使用，于是平摊在每次交易上的起草费用就可以显著降低。</p>
+<p>由于金融中介可以降低交易成本，因此可以向客户提供 <strong>liquidity services 流动性服务</strong>，使客户的交易更为方便。</p>
+<h5 id="风险分担"><a href="#风险分担" class="headerlink" title="风险分担"></a>风险分担</h5><p>金融中介较低的交易成本可以减少投资者面临的 <strong>risk 风险</strong>，即对收益的不确定性。金融中介的这种功能称为 <strong>risk sharing 风险分担</strong>：中介所设计和提供的资产品种在客户的风险承受力之内，然后中介再用销售这些资产所得的资金去购买风险更大的资产。较低的交易成本使金融中介能以低成本分担风险，在风险资产上的收益与已出售资产间的差额就是金融中介的利润。风险分担的过程也称为 <strong>asset transformation 资产转换</strong>，因为资产被转化为对投资者而言更为安全的资产。</p>
+<p>金融中介分担风险的另一种方式是帮助个人实现资产 <strong>diversification 多样化</strong>。多样化包括投资于收益变动方向不一致的一系列资产，即 <strong>portfolio 投资组合</strong>，从而将总体风险降低到一种资产的风险以下。金融机构可以将不同资产组合起来形成一种新的资产，并出售给个人。</p>
+<h5 id="信息不对称：逆向选择与道德风险"><a href="#信息不对称：逆向选择与道德风险" class="headerlink" title="信息不对称：逆向选择与道德风险"></a>信息不对称：逆向选择与道德风险</h5><p><strong>Asymmetric information 信息不对称</strong>指交易中一方对另一方缺乏充分的了解，即双方掌握的信息不均等。例如，相对于贷方，借方对投资项目的潜在收益和风险更为了解。信息缺失给金融系统带来的问题出现在两个阶段，交易之前与交易之后。</p>
+<ul>
+<li>交易之前，信息不对称导致的问题是 <strong>adverse selection 逆向选择</strong>。金融市场的逆向选择是指，最有可能造成不利后果，即制造信贷风险的潜在借款人，同时也会是最积极寻求贷款，最终也最可能获得贷款的人。由于逆向选择使贷款具有风险，贷款人可能选择不发放任何贷款，尽管市场上还有信贷风险低的借款人存在。这导致了劣币驱逐良币的现象。</li>
+<li><p>交易之后，信息不对称导致的问题是 <strong>moral hazard 道德风险</strong>。这是指借款人在借款后从事不利于贷款人的活动的风险。道德风险降低了贷款偿还的可能性，导致贷款人倾向于不发放贷款。</p>
+<p>  融中介机构能有效处理信息不对称的问题。一方面，他们具有甄别信贷风险的专业技能，从而降低逆向选择造成的损失。另一方面，他们可以对借款人的行为进行监督，降低道德风险造成的损失。        </p>
+</li>
+</ul>
+<h5 id="范围经济与利益冲突"><a href="#范围经济与利益冲突" class="headerlink" title="范围经济与利益冲突"></a>范围经济与利益冲突</h5><p><strong>Economies of scope 范围经济</strong>指金融中介可以将信息用于不同的服务从而降低获取信息的成本。例如，当银行向一家企业提供贷款时，可以对企业的信贷风险进行评估，然后又可以利用这一信息判断是否容易将该企业的债券公开出售。</p>
+<p><strong>Conflicts of interest 利益冲突</strong>是一种道德风险，指的是当个人或机构拥有多个目标（利益）时，这些利益之间产生冲突。当金融机构提供多种服务时，这些服务所产生的利益的潜在竞争性使个人或公司隐藏部分信息或提供误导性的信息。</p>
+<h4 id="Types-of-financial-intermediaries"><a href="#Types-of-financial-intermediaries" class="headerlink" title="Types of financial intermediaries"></a><em><u>Types of financial intermediaries</u></em></h4><p>金融中介机构可以分为三类：<strong>depository institutions 存款机构</strong>（银行），<strong>contractual saving institutions 契约型储蓄机构</strong>，<strong>investment intermediaries 投资中介</strong>。</p>
+<h5 id="存款机构"><a href="#存款机构" class="headerlink" title="存款机构"></a>存款机构</h5><p>存款机构从个人或机构接受存款并发放贷款。存款机构是货币供给的重要环节—货币创造过程的参与者。存款机构包括商业银行与被称为 <strong>thrift institutions 储蓄机构</strong>（thrifts）的储蓄与贷款协会，互助储蓄银行和信用社。</p>
+<ul>
+<li><strong>Commercial banks 商业银行</strong>通过发行<strong>checkable deposits 支票存款</strong>（可以签发支票的存款），<strong>saving banks 储蓄存款</strong>（可以应储户要求提取，但不能签发支票的存款）与 <strong>time deposits 定期存款</strong>（有固定期限的存款）筹集资金，用于发放工商业贷款，消费者贷款与住房抵押贷款，或购买美国政府证券与市政证券。</li>
+<li><strong>Savings and Loans Associations 储蓄与贷款协会</strong>（S&amp;Ls）和 <strong>mutual saving banks 互助储蓄银行</strong>。这些机构通过储蓄存款（称为 <strong>shares 股份</strong>），定期存款与支票存款获取资金。过去，这类机构的活动受到严格限制，大部分资金用于向购房者发放抵押贷款。如今，这些限制有所松动，这类机构与商业银行的界限已经变得模糊。</li>
+<li><strong>Credit unions 信用社</strong>是由一些特定群体（如工会成员，某公司职员）组织的小型合作性贷款机构。这类机构通过发行存款（股份）获取资金，主要用于发放消费者贷款。</li>
+</ul>
+<h5 id="契约型储蓄机构"><a href="#契约型储蓄机构" class="headerlink" title="契约型储蓄机构"></a>契约型储蓄机构</h5><p>契约型储蓄机构，如保险公司与养老基金，是在契约基础上定期获得资金的金融中介机构。由于它们可以非常准确地预知需要向受益者支付的金额，因此不必像存款机构那样担心资金迅速流失。相比于存款机构，资产的流动性对这类机构不是很重要，它们一般将资金用于投资长期证券如公司债券，股票与抵押贷款。</p>
+<ul>
+<li><strong>Life insurance companies 人寿保险公司</strong>向人们提供保险以规避因死亡带来的财产危机，此外还销售养老金（向退休者的按年支付）。它们的资金收入主要是投保人为保持保单有效性而缴纳的保费，并主要投放于企业债券与抵押贷款。</li>
+<li><strong>Fire and casualty insurance companies 火灾与意外伤害保险公司</strong>向保单持有人提供保险以规避因失窃，火灾和意外事故导致的风险。一旦发生重大灾害，这些公司就可能遭受巨大损失，因此其资产更具流动性。它们持有的资产中，市政债券所占份额最大，此外还有企业债券，股票和美国政府债券。</li>
+<li><strong>Pension funds and government retirement funds 养老基金与政府退休基金</strong>以年金形式向参加养老金计划的雇员提供退休收入。其资金来自于雇主和雇员的缴款，后者通常是在雇员的工资中自动扣除。养老基金持有最多的资产是企业债券和股票。</li>
+</ul>
+<h5 id="投资中介"><a href="#投资中介" class="headerlink" title="投资中介"></a>投资中介</h5><p>包括财务公司，互惠基金与货币市场共同基金。</p>
+<ul>
+<li><p><strong>Finance companies 财务公司</strong>（<strong>金融公司</strong>）通过销售商业票据，发行股票或债券募集资金，并将资金贷给需要购买家具，汽车或修缮住房的消费者及小型企业。一些财务公司是为了促进母公司的产品销售而设立的，如福特汽车信贷公司就是向购买福特汽车的消费者提供贷款的。</p>
+</li>
+<li><p><strong>Mutual funds 互惠基金</strong>（<strong>共同基金</strong>）以向众多个人投资者销售股份的形式获得资金，并将资金用于购买多样化的投资组合。互惠基金将股份持有者的资金汇集起来，这样在购买大量股票和债券时，就能享有较低的交易成本。股份持有者可以随时销售（赎回）其股份，股份的价值由投资组合的价值决定，因此投资于互惠基金有一定的风险。</p>
+</li>
+<li><p><strong>Money market mutual funds 货币市场共同基金</strong>。这类机构既有互惠基金的特征，也可以提供类似存款的账户，因此功能上与存款机构相似。货币市场共同基金以销售股份的方式募集资金，但投资对象是更为安全和更具流动性的货币市场工具，之后再将这些资产的利息收入支付给股份持有者。</p>
+<p>货币市场共同基金的一个重要特征是，股份持有者可以根据所持有的股份价值签发支票，因此这种股份就类似于支付利息的支票存款账户。</p>
+</li>
+<li><p><strong>Investment banks 投资银行</strong>虽然被称为银行，但并非通常意义上的银行或金融中介机构，投资银行既不接受存款，也不发放贷款。投资银行不同于其他类型的金融机构，它们是为企业发行证券提供帮助的。首先，投资银行就企业发行证券的类型（股票或债券）提出建议，然后按预先确定的价格从发行企业手中购买证券，并在市场中销售变现，从而为证券销售（承销）提供帮助。此外，投资银行还通过帮助企业完成重组，收购和兼并行为，从中收取巨额费用。</p>
+</li>
+</ul>
+<h4 id="Regulation-of-the-financial-system"><a href="#Regulation-of-the-financial-system" class="headerlink" title="Regulation of the financial system"></a><em><u>Regulation of the financial system</u></em></h4><p>金融体系是美国经济中受到最严格监管的部门，政府对其的监管主要出于两个原因：帮助投资者获取更多信息以及确保金融体系健全性。</p>
+<p>美国金融体系中的主要监管机构：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">监管机构</th>
+<th style="text-align:left">监管对象</th>
+<th style="text-align:left">管理性质</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Securities and Exchange Commission 证券交易委员会</strong>（<strong>SEC</strong>）</td>
+<td style="text-align:left">有组织的交易所和金融市场</td>
+<td style="text-align:left">信息披露要求，限制内部人交易</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Commodities Futures Trading Commission 商品期货交易委员会</strong>（<strong>CFTC</strong>）</td>
+<td style="text-align:left">期货交易所</td>
+<td style="text-align:left">期货市场交易过程的监管</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Office of the Comptroller of the Currency 通货监理署</strong></td>
+<td style="text-align:left">在联邦政府注册的商业银行</td>
+<td style="text-align:left">向联邦注册的商业银行发放执照，检查账簿，对持有的资产范围做出限制</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>National Credit Union Administration 全国信用社监理局</strong>（<strong>NCUA</strong>）</td>
+<td style="text-align:left">在联邦政府注册的信用社</td>
+<td style="text-align:left">向联邦注册的信用社发放执照，检查账簿，对持有的资产范围做出限制</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>State banking and insurance commisions 州银行和保险委员会</strong></td>
+<td style="text-align:left">在州政府注册的存款机构</td>
+<td style="text-align:left">向州注册的商业银行和保险公司发放执照，检查账簿，对持有的资产范围和分支机构的设立做出限制</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Federal Deposit Insurance Corporation 联邦存款保险公司</strong>（<strong>FDIC</strong>）</td>
+<td style="text-align:left">商业银行，互助储蓄银行，储蓄与贷款协会</td>
+<td style="text-align:left">对银行的每位储户提供 10 万美元（临时性上升至 25 万美元）以内的保险，检查参保银行的账簿，对其持有的资产范围做出限制</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Federal Reserve System 联邦储备体系</strong></td>
+<td style="text-align:left">所有存款机构</td>
+<td style="text-align:left">检查美联储成员银行的账簿，规定所有银行的准备金要求</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Office of Thrift Supervision 储蓄监管局</strong></td>
+<td style="text-align:left">储蓄与贷款协会</td>
+<td style="text-align:left">检查储蓄与贷款协会的账簿，对其持有的资产做出限制</td>
+</tr>
+</tbody>
+</table>
+<h5 id="帮助投资者获取更多信息"><a href="#帮助投资者获取更多信息" class="headerlink" title="帮助投资者获取更多信息"></a>帮助投资者获取更多信息</h5><p>政府对金融市场的监管可以帮助投资者获取更多信息，减少逆向选择和道德风险等问题，促进金融市场健康运行。</p>
+<ul>
+<li>证券交易委员会（SEC）规定，企业在发行证券时，必须向公众公布有关销售，资产和收益的状况，并对企业大股东（即内部人）的交易做出了限制。</li>
+</ul>
+<h5 id="确保金融体系健全性"><a href="#确保金融体系健全性" class="headerlink" title="确保金融体系健全性"></a>确保金融体系健全性</h5><p>信息不对称可能导致金融机构的大范围破产，即 <strong>financial panic 金融恐慌</strong>。当公众对金融中介机构的总体状况产生怀疑时，由于无法辨别持有他们的资金的这些机构是否健全可靠，很可能选择抽回资金，不管金融机构是否真的出现了问题。政府为了避免此类金融恐慌，实行以下六种类型的监管：</p>
+<ul>
+<li><strong>Restrictions on entry 准入限制</strong>。希望设立银行或保险公司等中介机构等个人或组织，必须从州或联邦政府获取执照。只有那些信誉良好且投入大量初始资金等公民才能获得执照。</li>
+<li><strong>Disclosure 信息披露</strong>。金融机构等会计制度必须遵循某些严格规定，账簿要接受定期审查，而且必须向公众公开某些信息。</li>
+<li>资产和业务限制。限制金融机构持有某些风险资产，或限制其持有数量。例如，商业银行或其他存款机构不得持有股票，保险公司可以持有股票，但其数量不能超过资产总额的一定比例。</li>
+<li><strong>Deposit insurance 存款保险</strong>。政府对储户的存款提供保险，这样，即使存款机构破产，储户也不会遭受严重损失。联邦存款保险公司（FDIC）是提供这类保险的主要机构。金融机构向 FDIC 缴纳的保费进入 FDIC 的存款保险基金中，在金融机构破产时偿付储户。<strong>National Credit Union Share Insurance Fund 全国信用社股份保险基金</strong>为信用社提供类似服务。</li>
+<li>对竞争的限制。对金融机构之间肆无忌惮的竞争做出限制，例如限制银行分支机构的设立。</li>
+<li><strong>Restrictions on interest rates 利率管制</strong>。对存款利率的管制也起到了对竞争进行限制的效果。</li>
+</ul>
+<h4 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a><em><u>Summary</u></em></h4><ol>
+<li>金融市场最基本的功能是将资金在资金盈余的储蓄者和资金短缺的支出者之间转移。主要方式包括：<ul>
+<li>直接融资，借款人通过发行证券直接从贷款人手中募集资金</li>
+<li>间接融资，由金融中介机构帮助实现资金转移</li>
+</ul>
+</li>
+<li>金融市场可以分为债务市场与股权市场，一级市场与二级市场，交易所与场外交易市场，货币市场与资本市场。</li>
+<li>欧洲债券是以非发行国货币计价的债券。欧洲货币是欧洲债券的一个变种，指储蓄在本国之外的银行的货币。欧洲美元特指存放在美国之外的银行或美国银行的外国分行的美元，这已成为美国银行重要的资金来源。</li>
+<li>金融中介机构是通过发行负债筹集资金，并通过购买证券或发放贷款获取资金的金融机构。金融中介可以降低交易成本，分担金融风险，解决逆向选择与道德风险等问题，从而允许小额储蓄者与借款人参与金融市场。金融中介机构主要分为三种：<ul>
+<li>存款机构，如商业银行，信用社等</li>
+<li>契约型储蓄机构，如人寿保险，养老基金等</li>
+<li>投资中介机构，如财务公司，互惠基金等</li>
+</ul>
+</li>
+<li>政府出于两个原因对金融市场和金融机构进行严格监管：帮助投资者获取更多信息，以及确保金融体系的健全。</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/11/Chap1/" rel="next" title="Chapter 1 -- Why Study Money, Banking, and Financial Markets?">
+                <i class="fa fa-chevron-left"></i> Chapter 1 -- Why Study Money, Banking, and Financial Markets?
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/04/13/Chap3/" rel="prev" title="Chaper 3 -- What is Money?">
+                Chaper 3 -- What is Money? <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name"></p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Function-of-financial-markets"><span class="nav-number">1.</span> <span class="nav-text">Function of financial markets</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Structure-of-financial-markets"><span class="nav-number">2.</span> <span class="nav-text">Structure of financial markets</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#债务市场与股权市场"><span class="nav-number">2.1.</span> <span class="nav-text">债务市场与股权市场</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#一级市场与二级市场"><span class="nav-number">2.2.</span> <span class="nav-text">一级市场与二级市场</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#交易所与场外交易市场"><span class="nav-number">2.3.</span> <span class="nav-text">交易所与场外交易市场</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#货币市场与资本市场"><span class="nav-number">2.4.</span> <span class="nav-text">货币市场与资本市场</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Financial-market-instruments"><span class="nav-number">3.</span> <span class="nav-text">Financial market instruments</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#货币市场工具"><span class="nav-number">3.1.</span> <span class="nav-text">货币市场工具</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#资本市场工具"><span class="nav-number">3.2.</span> <span class="nav-text">资本市场工具</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Internationalization-of-financial-markets"><span class="nav-number">4.</span> <span class="nav-text">Internationalization of financial markets</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#国际债券市场，欧洲债券与欧洲货币"><span class="nav-number">4.1.</span> <span class="nav-text">国际债券市场，欧洲债券与欧洲货币</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#世界股票市场"><span class="nav-number">4.2.</span> <span class="nav-text">世界股票市场</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Function-of-financial-intermediaries-indirect-finance"><span class="nav-number">5.</span> <span class="nav-text">Function of financial intermediaries: indirect finance</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#交易成本"><span class="nav-number">5.1.</span> <span class="nav-text">交易成本</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#风险分担"><span class="nav-number">5.2.</span> <span class="nav-text">风险分担</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#信息不对称：逆向选择与道德风险"><span class="nav-number">5.3.</span> <span class="nav-text">信息不对称：逆向选择与道德风险</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#范围经济与利益冲突"><span class="nav-number">5.4.</span> <span class="nav-text">范围经济与利益冲突</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Types-of-financial-intermediaries"><span class="nav-number">6.</span> <span class="nav-text">Types of financial intermediaries</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#存款机构"><span class="nav-number">6.1.</span> <span class="nav-text">存款机构</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#契约型储蓄机构"><span class="nav-number">6.2.</span> <span class="nav-text">契约型储蓄机构</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#投资中介"><span class="nav-number">6.3.</span> <span class="nav-text">投资中介</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Regulation-of-the-financial-system"><span class="nav-number">7.</span> <span class="nav-text">Regulation of the financial system</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#帮助投资者获取更多信息"><span class="nav-number">7.1.</span> <span class="nav-text">帮助投资者获取更多信息</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#确保金融体系健全性"><span class="nav-number">7.2.</span> <span class="nav-text">确保金融体系健全性</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Summary"><span class="nav-number">8.</span> <span class="nav-text">Summary</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder"></span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
